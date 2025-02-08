@@ -28,6 +28,7 @@ nav{
 #logo img{
     width: 15%;
     height: 15%;
+    transition: 0.5s;
 }
 
 #logo:hover img{
@@ -103,3 +104,71 @@ nav ul li{
 .profile img:hover{
     transform: scale(1.1);
 }
+
+h1 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.btn-group{
+    margin: 45px 0;
+}
+
+.btn-cv{
+    color: #000;
+    border: 2px solid #344D59;
+    background-color: #7A90A4;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px -8px #000;
+}
+
+.btn-contact{
+    color: #000;
+    border: 2px solid #344D59;
+    background-color: #7A90A4;
+    padding: 12px 25px;
+    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px -8px #000;
+}
+
+.social{
+    margin: 0 10px;
+    color: #000;
+    font-size: 50px;
+}
+
+.instagram{
+    color: #000;
+    padding: 12px 25px;
+    margin: 5px;
+}
+
+.instagram:hover{
+    color: #344d59;
+}
+
+.linkedin{
+    color: #000;
+    padding: 12px 25px;
+    margin: 5px;
+}
+
+.linkedin:hover{
+    color: #344d59;
+}
+
+.github{
+    color: #000;
+    padding: 12px 25px;
+    margin: 5px;
+}
+
+.github:hover{
+    color: #344d59;
+}
+
+
