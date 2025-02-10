@@ -21,23 +21,9 @@ nav{
     font-size: 20px;
 }
 
-#logo{
-    display: flex;
-    align-items: center;
-}
-
-#logo img{
-    width: 20%;
-    height: 20%;
-    transition: 0.5s;
-}
-
-#logo:hover img{
-    transform: scaleX(1.2) scaleY(1.2);
-}
-
 nav ul{
     display: flex;
+    flex-direction: wrap;
     gap: 1rem;
     align-items: center;
 }
@@ -73,6 +59,21 @@ nav ul li a:hover{
 
 nav ul li{
     list-style: none;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+#logo img{
+    width: 20%;
+    height: 20%;
+    transition: 0.5s;
+}
+
+#logo:hover img{
+    transform: scaleX(1.2) scaleY(1.2);
 }
 
 .dorian-section{
@@ -182,4 +183,49 @@ footer {
 .copyright {
     font-size: 25px;
     color: #000;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #logo img {
+        width: 40%;
+        height: auto;
+    }
+
+    .dorian-section {
+        min-height: 50vh;
+    }
+
+    .profile {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-cv, .btn-contact {
+        width: 80%;
+        text-align: center;
+    }
+
+    .social {
+        font-size: 40px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
 }

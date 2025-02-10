@@ -169,3 +169,28 @@ footer {
     font-size: 20px;
     color: #000;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    #logo img {
+        width: 40%;
+        height: auto;
+    }
+
+    .social {
+        font-size: 40px;
+    }
+
+    footer {
+        font-size: 20px;
+    }
+}
