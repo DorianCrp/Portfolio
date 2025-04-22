@@ -5,4 +5,5 @@ This is my personal portfolio website, built to showcase my projects, skills, an
 ## 🚀 Tech Stack
 
 - **HTML** – Structure and content of the web pages  
-- **CSS** – Styling and layout design  
+- **CSS** – Styling and layout design
+- **PHP** – For backend with PHPMailer
