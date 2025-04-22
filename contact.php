@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fiche de Contact</title>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/common.css">
     <link rel="stylesheet" href="assets/css/contact.css">
 </head>
 <body>
@@ -26,7 +27,7 @@
     <main>
         <div class="contact-form">
             <h2>Contact Me</h2>
-            <form action="#" method="POST">
+            <form action="/assets/backend/send_mail.php" method="POST"> <!-- Action point vers send_mail.php -->
                 <div class="input-group">
                     <label for="name">Name</label>
                     <input type="text" id="name" name="name" required>
@@ -35,7 +36,7 @@
                     <label for="subject">Subject</label>
                     <input type="text" id="subject" name="subject" required>
                     <label for="Description">Description</label>
-                    <textarea id="Description" name="Description" rows="4" required></textarea>
+                    <textarea id="Description" name="Description" rows="4" required></textarea> <!-- Nom correspond au champ PHP -->
                 </div>
                 <button type="submit">Submit</button>
             </form>
