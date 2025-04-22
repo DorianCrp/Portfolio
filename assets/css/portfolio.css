@@ -99,10 +99,9 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #fff;
+    background-color: #6F9CA7;
     padding: 20px;
     border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
     width: 250px;
 }

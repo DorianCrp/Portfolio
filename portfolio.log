@@ -1,137 +1,199 @@
-nohup: ignoring input
-[Tue Apr 22 18:25:45 2025] PHP 8.1.2-1ubuntu2.21 Development Server (http://0.0.0.0:2000) started
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44228 Accepted
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44228 [200]: GET /
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44228 Closing
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44238 Accepted
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44238 [200]: GET /assets/css/style.css
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44238 Closing
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44250 Accepted
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44262 Accepted
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44250 [200]: GET /assets/img/profile.png
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44262 [200]: GET /assets/img/logo.png
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44250 Closing
-[Tue Apr 22 18:26:02 2025] 128.78.73.157:44262 Closing
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44272 Accepted
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44272 [200]: GET /contact.php
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44272 Closing
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44274 Accepted
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44278 Accepted
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44274 [404]: GET /assets/css/common.css - No such file or directory
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44278 [200]: GET /assets/css/contact.css
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44274 Closing
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44278 Closing
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44280 Accepted
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44280 [200]: GET /assets/img/logo.png
-[Tue Apr 22 18:26:06 2025] 128.78.73.157:44280 Closing
-[Tue Apr 22 18:26:24 2025] 128.78.73.157:58970 Accepted
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58970 [302]: POST /assets/backend/send_mail.php
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58970 Closing
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58976 Accepted
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58976 [200]: GET /contact.php?success=1
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58976 Closing
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:59008 Accepted
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58992 Accepted
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:59008 [200]: GET /assets/css/contact.css
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58992 [404]: GET /assets/css/common.css - No such file or directory
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:58992 Closing
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:59008 Closing
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:59014 Accepted
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:59014 [200]: GET /assets/img/logo.png
-[Tue Apr 22 18:26:25 2025] 128.78.73.157:59014 Closing
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59026 Accepted
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59026 [200]: GET /index.html
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59026 Closing
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59032 Accepted
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59032 [200]: GET /assets/css/style.css
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59032 Closing
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59046 Accepted
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59050 Accepted
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59046 [200]: GET /assets/img/logo.png
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59050 [200]: GET /assets/img/profile.png
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59050 Closing
-[Tue Apr 22 18:26:28 2025] 128.78.73.157:59046 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56332 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56332 [200]: GET /portfolio.html
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56332 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56344 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56344 [200]: GET /assets/css/portfolio.css
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56344 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56352 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56364 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56368 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56352 [200]: GET /assets/img/reservation.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56368 [200]: GET /assets/img/portfolio.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56370 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56364 [200]: GET /assets/img/restaurant.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56374 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56372 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56374 [200]: GET /assets/img/project_manager.jpg
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56374 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56372 [200]: GET /assets/img/springai.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56372 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56370 [200]: GET /assets/img/logo.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56352 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56368 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56370 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56388 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56388 [200]: GET /assets/img/relatly.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56392 Accepted
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56392 [200]: GET /assets/img/fastapi.png
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56392 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56364 Closing
-[Tue Apr 22 18:26:46 2025] 128.78.73.157:56388 Closing
-[Tue Apr 22 18:43:11 2025] 64.62.156.156:57141 Accepted
-[Tue Apr 22 18:43:11 2025] 64.62.156.156:57141 Invalid request (Malformed HTTP request)
-[Tue Apr 22 18:43:11 2025] 64.62.156.156:57141 Closing
-[Tue Apr 22 18:54:21 2025] 18.222.17.183:37988 Accepted
-[Tue Apr 22 18:54:21 2025] 18.222.17.183:37988 [200]: GET /
-[Tue Apr 22 18:54:21 2025] 18.222.17.183:37988 Closing
-[Tue Apr 22 18:54:21 2025] 18.222.17.183:37990 Accepted
-[Tue Apr 22 18:54:21 2025] 18.222.17.183:37990 [200]: GET /
-[Tue Apr 22 18:54:21 2025] 18.222.17.183:37990 Closing
-[Tue Apr 22 19:00:02 2025] 18.222.17.183:60906 Accepted
-[Tue Apr 22 19:00:02 2025] 18.222.17.183:60906 Invalid request (Unsupported SSL request)
-[Tue Apr 22 19:00:02 2025] 18.222.17.183:60906 Closing
-[Tue Apr 22 19:01:35 2025] 18.222.17.183:56568 Accepted
-[Tue Apr 22 19:01:35 2025] 18.222.17.183:56568 Invalid request (Unsupported SSL request)
-[Tue Apr 22 19:01:35 2025] 18.222.17.183:56568 Closing
-[Tue Apr 22 19:01:49 2025] 18.222.17.183:52250 Accepted
-[Tue Apr 22 19:01:59 2025] 18.222.17.183:52250 Invalid request (Unexpected EOF)
-[Tue Apr 22 19:01:59 2025] 18.222.17.183:52250 Closing
-[Tue Apr 22 20:10:54 2025] 128.203.201.155:51666 Accepted
-[Tue Apr 22 20:11:04 2025] 128.203.201.155:51666 Invalid request (Unexpected EOF)
-[Tue Apr 22 20:11:04 2025] 128.203.201.155:51666 Closing
-[Tue Apr 22 20:20:47 2025] 165.154.174.27:38974 Accepted
-[Tue Apr 22 20:20:53 2025] 165.154.174.27:38974 Closed without sending a request; it was probably just an unused speculative preconnection
-[Tue Apr 22 20:20:53 2025] 165.154.174.27:38974 Closing
-[Tue Apr 22 20:20:55 2025] 165.154.174.27:40598 Accepted
-[Tue Apr 22 20:20:55 2025] 165.154.174.27:40598 [200]: GET /
-[Tue Apr 22 20:20:55 2025] 165.154.174.27:40598 Closing
-[Tue Apr 22 20:20:56 2025] 165.154.174.27:40782 Accepted
-[Tue Apr 22 20:20:56 2025] 165.154.174.27:40782 Invalid request (Unsupported SSL request)
-[Tue Apr 22 20:20:56 2025] 165.154.174.27:40782 Closing
-[Tue Apr 22 20:20:57 2025] 165.154.174.27:41114 Accepted
-[Tue Apr 22 20:20:57 2025] 165.154.174.27:41114 Invalid request (Unsupported SSL request)
-[Tue Apr 22 20:20:57 2025] 165.154.174.27:41114 Closing
-[Tue Apr 22 20:20:58 2025] 165.154.174.27:41328 Accepted
-[Tue Apr 22 20:20:58 2025] 165.154.174.27:41328 Invalid request (Unsupported SSL request)
-[Tue Apr 22 20:20:58 2025] 165.154.174.27:41328 Closing
-[Tue Apr 22 20:20:58 2025] 165.154.174.27:41344 Accepted
-[Tue Apr 22 20:20:58 2025] 165.154.174.27:41344 Invalid request (Malformed HTTP request)
-[Tue Apr 22 20:20:58 2025] 165.154.174.27:41344 Closing
-[Tue Apr 22 20:23:10 2025] 165.154.120.223:51638 Accepted
-[Tue Apr 22 20:23:10 2025] 165.154.120.223:51638 [200]: GET /
-[Tue Apr 22 20:23:10 2025] 165.154.120.223:51638 Closing
-[Tue Apr 22 20:23:10 2025] 165.154.120.223:51776 Accepted
-[Tue Apr 22 20:23:10 2025] 165.154.120.223:51776 [404]: GET /favicon.ico - No such file or directory
-[Tue Apr 22 20:23:10 2025] 165.154.120.223:51776 Closing
-[Tue Apr 22 20:23:11 2025] 165.154.120.223:51986 Accepted
-[Tue Apr 22 20:23:11 2025] 165.154.120.223:51986 [200]: GET /assets/img/logo.png
-[Tue Apr 22 20:23:11 2025] 165.154.120.223:51986 Closing
-[Tue Apr 22 20:23:12 2025] 165.154.120.223:52310 Accepted
-[Tue Apr 22 20:23:12 2025] 165.154.120.223:52312 Accepted
-[Tue Apr 22 20:23:12 2025] 165.154.120.223:52312 [404]: GET /sitemap.xml - No such file or directory
-[Tue Apr 22 20:23:12 2025] 165.154.120.223:52312 Closing
-[Tue Apr 22 20:23:12 2025] 165.154.120.223:52310 [404]: GET /robots.txt - No such file or directory
-[Tue Apr 22 20:23:12 2025] 165.154.120.223:52310 Closing
+[Tue Apr 22 21:37:27 2025] PHP 8.1.2-1ubuntu2.21 Development Server (http://0.0.0.0:2000) started
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34446 Accepted
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34446 [200]: GET /
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34446 Closing
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34452 Accepted
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34460 Accepted
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34452 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34460 [200]: GET /assets/css/style.css
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34452 Closing
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34460 Closing
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34464 Accepted
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34466 Accepted
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34464 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34466 [200]: GET /assets/img/profile.png
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34466 Closing
+[Tue Apr 22 21:37:42 2025] 128.78.73.157:34464 Closing
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44850 Accepted
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44850 [200]: GET /portfolio.html
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44850 Closing
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44864 Accepted
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44868 Accepted
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44864 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44864 Closing
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44868 [200]: GET /assets/css/portfolio.css
+[Tue Apr 22 21:37:45 2025] 128.78.73.157:44868 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44882 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44896 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44900 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44896 [200]: GET /assets/img/portfolio.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44928 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44900 [200]: GET /assets/img/restaurant.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44914 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44928 [200]: GET /assets/img/relatly.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44940 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44882 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44914 [200]: GET /assets/img/reservation.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44940 [200]: GET /assets/img/fastapi.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44896 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44940 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44942 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44914 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44954 Accepted
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44942 [200]: GET /assets/img/project_manager.jpg
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44954 [200]: GET /assets/img/springai.png
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44882 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44942 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44954 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44928 Closing
+[Tue Apr 22 21:37:46 2025] 128.78.73.157:44900 Closing
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44970 Accepted
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44970 [200]: GET /resume.html
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44970 Closing
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44980 Accepted
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44980 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44988 Accepted
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44980 Closing
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44988 [200]: GET /assets/css/resume.css
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44988 Closing
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44998 Accepted
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:45006 Accepted
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44998 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:45006 [200]: GET /assets/img/profile.png
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:45006 Closing
+[Tue Apr 22 21:37:52 2025] 128.78.73.157:44998 Closing
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59508 Accepted
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59508 [200]: GET /contact.php
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59508 Closing
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59514 Accepted
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59512 Accepted
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59514 [200]: GET /assets/css/contact.css
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59512 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59514 Closing
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59512 Closing
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59522 Accepted
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59522 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:37:53 2025] 128.78.73.157:59522 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59528 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59528 [200]: GET /portfolio.html
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59528 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59538 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59542 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59538 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59538 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59542 [200]: GET /assets/css/portfolio.css
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59542 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59554 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59568 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59558 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59582 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59572 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59554 [200]: GET /assets/img/fastapi.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59554 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59582 [200]: GET /assets/img/reservation.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59572 [200]: GET /assets/img/restaurant.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59568 [200]: GET /assets/img/portfolio.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59598 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59558 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59598 [200]: GET /assets/img/relatly.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59582 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59612 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59612 [200]: GET /assets/img/project_manager.jpg
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59568 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59612 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59558 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59598 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59616 Accepted
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59616 [200]: GET /assets/img/springai.png
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59616 Closing
+[Tue Apr 22 21:37:56 2025] 128.78.73.157:59572 Closing
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49140 Accepted
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49140 [200]: GET /index.html
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49140 Closing
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49168 Accepted
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49152 Accepted
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49168 [200]: GET /assets/css/style.css
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49168 Closing
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49152 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49152 Closing
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49196 Accepted
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49196 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49184 Accepted
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49184 [200]: GET /assets/img/profile.png
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49184 Closing
+[Tue Apr 22 21:41:08 2025] 128.78.73.157:49196 Closing
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49208 Accepted
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49208 [200]: GET /contact.php
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49208 Closing
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49224 Accepted
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49212 Accepted
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49224 [200]: GET /assets/css/contact.css
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49224 Closing
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49212 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49212 Closing
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49226 Accepted
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49226 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:41:10 2025] 128.78.73.157:49226 Closing
+[Tue Apr 22 21:41:20 2025] 128.78.73.157:39688 Accepted
+[Tue Apr 22 21:41:21 2025] 128.78.73.157:39688 [302]: POST /assets/backend/send_mail.php
+[Tue Apr 22 21:41:21 2025] 128.78.73.157:39688 Closing
+[Tue Apr 22 21:41:21 2025] 128.78.73.157:39704 Accepted
+[Tue Apr 22 21:41:21 2025] 128.78.73.157:39704 [200]: GET /contact.php?success=1
+[Tue Apr 22 21:41:21 2025] 128.78.73.157:39704 Closing
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39714 Accepted
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39730 Accepted
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39714 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39714 Closing
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39730 [200]: GET /assets/css/contact.css
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39730 Closing
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39736 Accepted
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39736 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:41:22 2025] 128.78.73.157:39736 Closing
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60710 Accepted
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60710 [200]: GET /index.html
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60710 Closing
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60730 Accepted
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60726 Accepted
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60726 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60726 Closing
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60730 [200]: GET /assets/css/style.css
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60730 Closing
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60748 Accepted
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60744 Accepted
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60748 [200]: GET /assets/img/profile.png
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60744 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60748 Closing
+[Tue Apr 22 21:41:25 2025] 128.78.73.157:60744 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52740 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52740 [200]: GET /portfolio.html
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52740 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52742 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52754 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52742 [200]: GET /assets/css/common.css
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52754 [200]: GET /assets/css/portfolio.css
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52742 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52754 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52756 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52762 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52756 [200]: GET /assets/img/springai.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52768 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52756 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52768 [200]: GET /assets/img/reservation.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52762 [200]: GET /assets/img/logo.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52800 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52782 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52788 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52782 [200]: GET /assets/img/restaurant.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52788 [200]: GET /assets/img/portfolio.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52800 [200]: GET /assets/img/project_manager.jpg
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52800 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52768 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52788 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52762 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52804 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52812 Accepted
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52804 [200]: GET /assets/img/relatly.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52812 [200]: GET /assets/img/fastapi.png
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52812 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52782 Closing
+[Tue Apr 22 21:41:54 2025] 128.78.73.157:52804 Closing
